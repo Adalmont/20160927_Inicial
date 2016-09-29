@@ -43,7 +43,7 @@ public class SaludoAnotacion extends HttpServlet {
             out.println("<body id='anotacion'>");
             out.println("<h1>Servlet SaludoAnotacion at " + request.getContextPath() + "</h1>");
             out.println("<a href='Saludo'>Saludo</a>");
-            out.println("<a href='index.html>Vuelta</a>");
+            out.println("<a href='index.html'>Vuelta</a>");
             out.println("</body>");
             out.println("</html>");
         }
